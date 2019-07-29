@@ -39,7 +39,7 @@ def parse_args(request_dict):
             x_list.append(value)
         else:# Handle missing features.
         	 x_list.append(0)
-        	 missing_data = Truegit 
+        	 missing_data = True 
     return x_list, missing_data
 
 
