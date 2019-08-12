@@ -1,7 +1,6 @@
 #offocus GIU
 from tkinter import *
 from tkinter import filedialog
-import api_cli
 import networking
 import image_processing
 

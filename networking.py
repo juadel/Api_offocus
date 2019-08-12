@@ -39,6 +39,6 @@ def main_Lan(ip0, ip1, password, chk_state):
 
 def requests_to(x1,x2):
 	values = {'Variance': x1, 'Noise': x2}
-	r = requests.get('http://ec2-99-79-44-109.ca-central-1.compute.amazonaws.com:5000/api', json= values)
+	r = requests.get('http://ec2-35-182-106-153.ca-central-1.compute.amazonaws.com:5000/api', json= values)
 	json_response = r.json()
 	return json_response['ESTIMATE']
